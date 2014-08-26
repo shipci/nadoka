@@ -10,6 +10,7 @@ rvm:
   - jruby-head
   - 1.8.7
   - ree
+
 matrix:
   allow_failures:
     - rvm: jruby-18mode
@@ -20,5 +21,4 @@ matrix:
     - rvm: jruby-head
     - rvm: ree
 script: ruby check-syntax.rb
-notifications:
-  irc: "irc.freenode.org#nadoka_jp"
+
